@@ -1,73 +1,16 @@
 <!doctype html>
-<html lang="ko">
-<head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="description" content="국립부경대학교 사회복지학전공을 만나는 디지털 캠퍼스. 학부와 대학원, 교수진, 학생 활동, 다솜모임과 사회복지 정보를 둘러보세요.">
-  <meta name="theme-color" content="#e9e9e9">
-  <title>PKNU Social Welfare — 부경대학교 사회복지</title>
-  <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='12' fill='%23191919'/%3E%3Ctext x='8' y='46' fill='%23c8fa72' font-family='Arial' font-weight='bold' font-size='36'%3Esw%3C/text%3E%3C/svg%3E">
-  <link rel="stylesheet" href="styles.css">
-  <script src="content.js" defer></script>
-  <script src="app.js" defer></script>
-</head>
-<body>
-  <a class="skip" href="#main">본문으로 이동</a>
-  <header class="topbar">
-    <button class="brand" data-home aria-label="처음 화면">sw<span>.</span></button>
-    <span class="brand-caption">국립부경대학교<br><strong>사회복지학전공</strong></span>
-    <nav aria-label="주요 메뉴">
-      <button data-open="programs">학부·대학원</button>
-      <button data-open="faculty">교수진</button>
-      <button data-open="life">학생 활동</button>
-      <button data-open="achievements">학과 성과</button>
-    </nav>
-    <button class="top-link" data-open="resources">복지 정보</button>
-    <a class="official" href="https://icms.pknu.ac.kr/ps1/1" target="_blank" rel="noopener noreferrer">공식 홈페이지</a>
-  </header>
-  <main id="main">
-    <section class="intro" aria-labelledby="hero-title">
-      <div class="eyebrow"><span>PUKYONG NATIONAL UNIVERSITY</span><span>BUSAN, KOREA</span></div>
-      <h1 id="hero-title">SOCIAL<br><span>WELFARE</span><i aria-hidden="true">*</i></h1>
-      <div class="hero-bottom"><p>사람을 이해하고,<br>더 나은 사회를 만듭니다.</p><div class="hero-note"><span>배움 · 연결 · 실천</span><p>부경의 사회복지를 만나는<br>우리의 디지털 캠퍼스.</p></div><button class="black-button" data-open="programs">학부·대학원 둘러보기</button></div>
-    </section>
-    <section class="campus" aria-labelledby="campus-title">
-      <div class="section-heading"><h2 id="campus-title">EXPLORE THE CAMPUS<span>우리의 이야기</span></h2><span class="small">클릭해서 새로운 창으로 만나보세요</span></div>
-      <div class="desktop">
-        <div class="desktop-bar"><span><span class="mini-logo">sw.</span> DIGITAL CAMPUS</span><span class="small">PKNU / SOCIAL WELFARE</span></div>
-        <div class="desktop-content">
-          <div class="shortcuts" aria-label="캠퍼스 바로가기">
-            <button data-open="programs"><span class="shortcut-icon">01</span>학부·대학원</button>
-            <button data-open="faculty"><span class="shortcut-icon">02</span>교수 소개</button>
-            <button data-open="life"><span class="shortcut-icon">03</span>학생 활동</button>
-            <button data-open="achievements"><span class="shortcut-icon">04</span>학과 성과</button>
-            <button data-open="dasom"><span class="shortcut-icon">05</span>다솜모임</button>
-            <button data-open="resources"><span class="shortcut-icon">06</span>복지 정보</button>
-          </div>
-          <button class="feature-window" data-open="dasom" aria-label="다솜모임 소개 창 열기">
-            <span class="feature-title"><span>dasom.story</span><span aria-hidden="true">− &nbsp; □ &nbsp; ×</span></span>
-            <span class="feature-image"><img src="assets/dasom-ALtH_vsgxqg.jpg" alt="학과 유튜브 다솜중학교 모임 영상 썸네일"><span class="image-caption">같이 만든 순간,<br>오래 남는 마음.</span></span>
-            <span class="feature-footer"><strong>다솜모임</strong><span>추억, 행복, 낭만</span><span class="round-plus" aria-hidden="true">+</span></span>
-          </button>
-          <div class="desktop-note"><span>PEOPLE<br>MAKE<br>CHANGE.</span><p>교실에서 지역사회까지,<br>배움은 사람과 연결됩니다.</p><button data-open="life">학생들의 이야기 보기</button></div>
-        </div>
-        <div class="desktop-status"><span>06개의 이야기 · 하나의 캠퍼스</span><span>부산 · 대연캠퍼스</span></div>
-      </div>
-    </section>
-    <section class="study-section" aria-labelledby="study-title">
-      <div class="section-heading"><h2 id="study-title">FIND YOUR PATH<span>배움의 세 가지 길</span></h2><button class="text-button" data-open="programs">교육과정 살펴보기</button></div>
-      <div class="path-grid">
-        <button data-open="undergrad" class="path-card"><span class="small">01 / UNDERGRADUATE</span><h3>학부</h3><p>사회복지학전공</p><span class="degree">학사 과정</span><span class="path-bottom">사회복지의 기초와 현장 실천 <b>+</b></span></button>
-        <button data-open="graduate" class="path-card"><span class="small">02 / GRADUATE SCHOOL</span><h3>일반대학원</h3><p>사회복지학과</p><span class="degree">석사 · 박사 과정</span><span class="path-bottom">사회복지 연구의 깊이를 더하다 <b>+</b></span></button>
-        <button data-open="global" class="path-card lime"><span class="small">03 / GLOBAL POLICY</span><h3>글로벌정책대학원</h3><p>사회복지학과</p><span class="degree">석사 과정</span><span class="path-bottom">정책과 실천을 잇는 전문성 <b>+</b></span></button>
-      </div>
-    </section>
-    <section class="news-section" aria-labelledby="news-title"><div class="section-heading"><h2 id="news-title">MAKING AN IMPACT<span>배움이 성과로</span></h2><button class="text-button" data-open="achievements">성과 더 보기</button></div><div id="home-news"></div></section>
-    <section class="connect"><span class="small">STAY CONNECTED</span><h2>우리의 다음 이야기를<br>함께 만나보세요.</h2><div><a href="https://www.youtube.com/@ps1pknu" target="_blank" rel="noopener noreferrer">YouTube / PS1PKNU</a><a href="https://www.instagram.com/pknu_ps1/" target="_blank" rel="noopener noreferrer">Instagram / pknu_ps1</a><button data-open="contact">학과 문의</button></div></section>
-  </main>
-  <footer><div><strong>sw.</strong><p>국립부경대학교 사회복지학전공<br>부산광역시 남구 용소로 45 · 인문사회경영관 C25 724호</p></div><div><a href="tel:0516295450">051-629-5450</a><a href="mailto:pksw5450@pknu.ac.kr">pksw5450@pknu.ac.kr</a></div><p class="small">사회복지학전공 소개 사이트<br>자료 확인: 2026.10.01 · <button data-open="sources">자료 출처</button></p></footer>
-  <div id="window-layer" aria-label="열린 콘텐츠 창"></div>
-  <aside class="taskbar" aria-label="작업 표시줄"><button data-home class="start-button" aria-label="모든 창 최소화하고 홈 보기"><span aria-hidden="true">⊞</span><span>캠퍼스</span></button><div id="tasks"></div><span id="clock" class="clock"></span><button id="show-desktop" aria-label="모든 창 최소화">바탕화면</button></aside>
-  <div id="announcer" class="sr-only" aria-live="polite"></div>
-</body>
-</html>
+<html lang="ko"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>PKNU SOCIAL WELFARE | 국립부경대학교 사회복지</title><meta name="description" content="국립부경대학교 사회복지학전공의 교수진, 학부와 대학원, 학생 활동과 다솜모임, 학과 성과와 복지 정보를 만나보세요."><meta name="theme-color" content="#c7e6ee"><link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' fill='%23ff1010'/%3E%3Ctext x='8' y='46' fill='white' font-family='Arial' font-weight='bold' font-size='36'%3Esw%3C/text%3E%3C/svg%3E"><link rel="stylesheet" href="styles.css"><script defer src="content.js"></script><script defer src="app.js"></script></head>
+<body><a class="skip" href="#main">본문으로 이동</a>
+<header class="header"><a class="brand" href="#top"><span class="brand-mark" aria-hidden="true">///</span><b>PKNU</b><span>SOCIAL WELFARE</span></a><button id="menu-toggle" aria-label="전체 메뉴 열기" aria-expanded="false" aria-controls="navigation"><span></span><span></span><span></span></button><a class="contact-link" href="#contact">학과 문의</a></header>
+<nav id="navigation" aria-label="주요 메뉴" hidden><a href="#programs">학부 · 대학원</a><a href="#faculty">교수 소개</a><a href="#life">학생 활동</a><a href="#dasom">다솜모임</a><a href="#achievements">학과 성과</a><a href="#resources">복지 정보</a><a href="#contact">문의</a></nav>
+<main id="main"><section class="hero" id="top"><p class="hero-kicker"><b>WE ARE PKNU SOCIAL WELFARE</b><br>사람과 사회를 잇는 배움, 국립부경대학교 사회복지</p><div class="hero-stage"><img class="hero-center" src="assets/dasom-ALtH_vsgxqg.jpg" alt="함께 모인 다솜모임 참여자들"><h1>SOCIAL WELFARE</h1><img class="hero-left" src="assets/dasom-GXDGZ-mMJQU.jpg" alt="다솜 급식데이의 기록"><img class="hero-right" src="assets/dasom-u6TVBS7ZpNY.jpg" alt="다솜모임 소개 영상"><span class="hero-stamp">LEARN.<br>CONNECT.<br>CARE.</span></div><div class="hero-bottom"><span>PUKYONG NATIONAL UNIVERSITY</span><p>사람을 이해하고,<br>더 나은 사회를 만듭니다.</p><a href="#programs">아래로 내려가며 만나보세요 ↓</a></div></section>
+<div class="section-nav"><a href="#programs">학부 · 대학원</a><a href="#faculty">교수 소개</a><a href="#life">학생 활동</a><a href="#dasom">다솜모임</a><a href="#achievements">학과 성과</a><a href="#resources">복지 정보</a></div>
+<section class="opening"><span class="kicker">PEOPLE MAKE CHANGE</span><h2>사람을 향한 관심이<br><em>사회의 변화</em>로 이어지는 곳.</h2><p>교실에서 시작한 질문을 연구와 현장으로 이어갑니다.<br>부경의 사회복지를 이루는 사람과 배움, 함께하는 이야기를 만나보세요.</p></section>
+<section id="programs" class="programs"><div class="section-title"><span>01 / STUDY</span><h2>배움의 세 가지 길</h2></div><div id="program-content"></div></section>
+<section id="faculty" class="page-section faculty-section"><div class="section-title"><span>02 / PEOPLE</span><h2>교수 소개</h2></div><div class="content" data-section="faculty"></div></section>
+<section id="life" class="page-section"><div class="section-title"><span>03 / CAMPUS LIFE</span><h2>우리의 캠퍼스 생활</h2></div><div class="content" data-section="life"></div></section>
+<section id="dasom" class="page-section dasom-section"><div class="section-title"><span>04 / TOGETHER</span><h2>다솜모임</h2></div><div class="content" data-section="dasom"></div></section>
+<section id="achievements" class="page-section"><div class="section-title"><span>05 / IMPACT</span><h2>배움이 성과로</h2></div><div class="content" data-section="achievements"></div></section>
+<section id="resources" class="page-section resources-section"><div class="section-title"><span>06 / RESOURCE DESK</span><h2>사회복지 정보</h2></div><div class="content" data-section="resources"></div></section>
+<section id="contact" class="page-section contact-section"><div class="section-title"><span>07 / GET IN TOUCH</span><h2>함께 연결될까요?</h2></div><div class="content" data-section="contact"></div></section>
+</main><footer><a class="footer-logo" href="#top">PKNU<br>SOCIAL WELFARE</a><div><p>국립부경대학교 사회복지학전공<br>부산광역시 남구 용소로 45 · 인문사회경영관 C25 724호</p><p><a href="tel:0516295450">051-629-5450</a> · <a href="mailto:pksw5450@pknu.ac.kr">pksw5450@pknu.ac.kr</a></p></div><details id="sources"><summary>자료 출처 · 2026.10.01</summary><div data-section="sources"></div></details></footer></body></html>
