@@ -16,3 +16,5 @@ https://icms.pknu.ac.kr/ps1/6390
 - dasom-u6TVBS7ZpNY.jpg: https://www.youtube.com/watch?v=u6TVBS7ZpNY
 - dasom-ALtH_vsgxqg.jpg: https://www.youtube.com/watch?v=ALtH_vsgxqg
 - dasom-GXDGZ-mMJQU.jpg: https://www.youtube.com/watch?v=GXDGZ-mMJQU
+
+사용자 제공 사진: user-portrait.png (첫 화면 오른쪽 프로필 사진). 원본을 수정하지 않고 복사했습니다.
